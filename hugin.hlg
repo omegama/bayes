@@ -1,0 +1,77 @@
+Fri Mar 16 16:29:31 2018
+
+
+Moral links:
+
+    Marrying Rain and WaterShortage
+
+
+Triangulating prime component with 3 members:
+    Rain, Grasswet, Sprinkler
+This component is a clique of cost 8
+
+Triangulating prime component with 3 members:
+    WaterShortage, Rain, Sprinkler
+This component is a clique of cost 8
+
+
+Total cost of triangulation for all prime components is 16
+
+
+Elimination sequence:
+
+    Grasswet
+    WaterShortage
+    Sprinkler
+    Rain
+
+
+Cliques:
+
+Clique 2, 3 members, table size = 8:
+    Rain, Sprinkler, WaterShortage
+
+Clique 1, 3 members, table size = 8:
+    Rain, Sprinkler, Grasswet
+
+Total clique table size: 16
+
+
+The junction forest:
+
+Creating junction tree with clique 2 as root ...
+
+Cliques 1 and 2 linked, separator has 2 members and table size = 4:
+    Rain, Sprinkler
+
+
+Assignment of potentials to cliques:
+
+    Node WaterShortage assigned to clique 2
+    Node Rain assigned to clique 2
+    Node Grasswet assigned to clique 1
+    Node Sprinkler assigned to clique 2
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    WaterShortage:
+	Good water 0.75
+	Low Water  0.25
+
+    Rain:
+	yes rain   0.2
+	no rain    0.8
+
+    Grasswet:
+	yes wet    0.39438
+	no wet     0.60562
+
+    Sprinkler:
+	yes sprinkler 0.262
+	no sprinkler 0.738
